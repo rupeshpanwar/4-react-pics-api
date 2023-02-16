@@ -12,14 +12,9 @@ const searchImages = async (term) => {
       query: term
     }
   })
-    .then(response => {
+
       return response.data.results;
-    //   console.log(response)
-    //   return response;
-    })
-    .catch(error => {
-      console.error(error);
-    });
+    
 };
 
 export default searchImages;
