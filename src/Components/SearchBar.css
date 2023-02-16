@@ -1,0 +1,31 @@
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: 20px 0;
+  }
+  
+  input[type="text"] {
+    width: 60%;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    outline: none;
+  }
+  
+  input[type="submit"] {
+    width: 20%;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: lightgray;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
